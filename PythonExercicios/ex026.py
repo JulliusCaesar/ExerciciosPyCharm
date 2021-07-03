@@ -1,0 +1,5 @@
+print('===== EX026 =====')
+frase = str(input('Digite uma Frase: ')).strip().upper()
+print('A letra "a" aparece {} '.format(frase.count('A')))
+print('A primeira posição que ela aparece é {}. '.format(frase.find('A')+1))
+print('A ultima posição que ela aparece é {}.'.format(frase.rfind('A')+1))
