@@ -8,6 +8,5 @@ for c in range(0, 9):
     if c3 == 3:
         c2 += 1
         c3 = 0
-
 for p in matriz:
     print(f'[  {p[0]} ] [  {p[1]} ] [  {p[2]} ]')
