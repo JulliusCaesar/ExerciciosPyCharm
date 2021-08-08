@@ -8,14 +8,14 @@ numPartidas = int(input(f'Quantas partidas {identificaJogador["nome"]} jogou? ')
 for contador in range(0, numPartidas):
     gols.append(int(input(f'Quantos gols na partida {contador}? ')))
 identificaJogador['gols'] = gols[:]
-identificaJogador['total'] = sum(gols)
+identificaJogador['total'] = sum(gols)  # Função para Somar
 print('-=' * 50)
 print(identificaJogador)
 print('-=' * 50)
 for Key, Value in identificaJogador.items():
-    print(f'{Key} tem o valor {Value}')
+    print(f'O Campo {Key} tem o valor {Value}')
 print('-=' * 50)
 print(f'O jogador {identificaJogador["nome"]} jogou {numPartidas} partidas')
-for contador in range(0, numPartidas):
-    print(f'=> Na partida {contador}, fez {gols[contador]} gols. ')
+for contador in range(0, numPartidas):  # for i, v in enumerate(identificaJogador['gols']):
+    print(f'=> Na partida {contador}, fez {gols[contador]} gols. ')  # print(f' => Na partida {i}, fez {v} gols.')
 print(f'Foi um total de {identificaJogador["total"]}')
