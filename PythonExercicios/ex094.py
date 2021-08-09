@@ -9,6 +9,7 @@ while True:
     identidade['nome'] = str(input('Nome: '))
     identidade['sexo'] = str(input('Sexo [M/F]: ')).strip().upper()
     while identidade['sexo'] not in 'MF':
+        print('ERRO! Por favor, digite apenas M ou F.')
         identidade['sexo'] = str(input('Sexo [M/F]: ')).strip().upper()
     if identidade['sexo'] == 'F':
         mulheres.append(identidade['nome'])
@@ -18,14 +19,16 @@ while True:
     del identidade['nome']
     del identidade['sexo']
     del identidade['idade']
-    resp = str(input('Gostaria de continuar [S/N]: ')).strip().upper()
+    resp = str(input('Quer continuar [S/N]: ')).strip().upper()
     somaCont += 1
     while resp not in 'SN':
-        resp = str(input('Gostaria de continuar [S/N]: ')).strip().upper()
+        print('ERRO! Responda apenas S ou N.')
+        resp = str(input('Quer continuar [S/N]: ')).strip().upper()
     if resp == 'N':
         break
 print('-=' * 40)
 mediaIdade = somaIdade / somaCont
-print(f'- O grupo tem {mediaIdade} pessoas.')
+print(f'- Ao todo temos {somaCont} pessoas cadastradas.')
+print(f'- A média de idade {mediaIdade} anos.')
 print(f'- As mulheres cadastradas foram: {mulheres}')
 print('- Lista das pessoas que estão acima da média:')
