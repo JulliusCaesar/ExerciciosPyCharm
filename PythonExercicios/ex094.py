@@ -16,9 +16,9 @@ while True:
     identidade['idade'] = int(input('Idade: '))
     somaIdade += identidade['idade']
     listaIdentidade.append(identidade.copy())
-    del identidade['nome']
-    del identidade['sexo']
-    del identidade['idade']
+    del identidade['nome']   #
+    del identidade['sexo']   #  Poderia ter usado identidade.clear()
+    del identidade['idade']  #
     resp = str(input('Quer continuar [S/N]: ')).strip().upper()
     somaCont += 1
     while resp not in 'SN':
