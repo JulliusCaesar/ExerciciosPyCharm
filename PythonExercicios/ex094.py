@@ -32,3 +32,10 @@ print(f'- Ao todo temos {somaCont} pessoas cadastradas.')
 print(f'- A média de idade {mediaIdade} anos.')
 print(f'- As mulheres cadastradas foram: {mulheres}')
 print('- Lista das pessoas que estão acima da média:')
+for p in listaIdentidade:
+    if p['idade'] >= mediaIdade:
+        print('   ', end='')
+        for k, v in p.items():
+            print(f'{k} = {v}; ', end='')
+        print()
+print('<< ENCERRADO >>')
