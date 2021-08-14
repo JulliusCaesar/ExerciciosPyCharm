@@ -5,6 +5,7 @@ from time import sleep
 
 
 def contador(inicio, fim, passo):
+
     print('-=' * 15)
     print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
     for contagem in range(inicio, fim + 1, passo):
@@ -17,8 +18,8 @@ contador(1, 10, 1)
 contador(10, 0, -2)
 print("-=" * 15)
 print('Agora é sua vez de personalizar a contagem!')
-inicio = int(input('Inicio: '))
-fim = int(input('Fim: '))
-passo = int(input('Passo: '))
+ini = int(input('Inicio: '))
+f = int(input('Fim: '))
+p = int(input('Passo: '))
 
 contador(inicio, fim, passo)
