@@ -3,9 +3,9 @@ uma mensagem com tamanho adaptável. Ex: escreva('Olá Mundo') '''
 
 
 def escreva(entrada):
-    tam = len(entrada) + 6
+    tam = len(entrada) + 4
     print(f'{"~"}' * tam)
-    print(f'{entrada:^10}')
+    print(f'  {entrada}')
     print(f'{"~"}' * tam)
 
 
