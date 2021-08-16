@@ -22,4 +22,4 @@ ini = int(input('Inicio: '))
 f = int(input('Fim: '))
 p = int(input('Passo: '))
 
-contador(inicio, fim, passo)
+contador(ini, f, p)
