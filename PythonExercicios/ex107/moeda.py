@@ -1,18 +1,18 @@
-def metade(valor):
-    return valor / 2
+def aumentar(preco, taxa):
+    res =  preco + (preco * taxa/100)
+    return res
 
 
-def dobro(valor):
-    return valor * 2
+def diminuir(preco, taxa):
+    res = preco - (preco * taxa/100)
+    return res
 
 
-def aumentar(valor):
-     aumento = valor * 0.10
-     valor += aumento
-     return valor
+def dobro(preco):
+    res = preco * 2
+    return res
 
 
-def diminuir(valor):
-    diminui = valor * 0.13
-    valor -= diminui
-    return valor
+def metade(preco):
+    res = preco / 2
+    return res

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51adad9-c6c0-4ffe-871c-b5d1062b856e" name="Changes" comment="Correção de exercicios">
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex107/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex107/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex107teste.py" afterDir="false" />
+    <list default="true" id="f51adad9-c6c0-4ffe-871c-b5d1062b856e" name="Changes" comment="Novos exercicios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonExercicios/ex107/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonExercicios/ex107/teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonExercicios/ex107/moeda.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonExercicios/ex107/moeda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonExercicios/ex107teste.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635717193821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Novos exercicios">
+      <created>1635777897781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635777897781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +215,7 @@
     <MESSAGE value="Noso exercicios" />
     <MESSAGE value="Correção de exercicio" />
     <MESSAGE value="Correção de exercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção de exercicios" />
+    <MESSAGE value="Novos exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novos exercicios" />
   </component>
 </project>
