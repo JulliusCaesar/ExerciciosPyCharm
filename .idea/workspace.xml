@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51adad9-c6c0-4ffe-871c-b5d1062b856e" name="Changes" comment="Exercicio 109">
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex110/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex110/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex111/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex111/ultilidadecev/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex111/ultilidadecev/dado/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex111/ultilidadecev/moeda/__init__.py" afterDir="false" />
+    <list default="true" id="f51adad9-c6c0-4ffe-871c-b5d1062b856e" name="Changes" comment="Exercicio 111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonExercicios/ex111/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonExercicios/ex111/teste.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635794269776</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercicio 111">
+      <created>1635808694633</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635808694633</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +257,7 @@
     <MESSAGE value="Novos exercicios" />
     <MESSAGE value="Melhorando exercicios" />
     <MESSAGE value="Exercicio 109" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 109" />
+    <MESSAGE value="Exercicio 111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 111" />
   </component>
 </project>
